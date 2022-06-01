@@ -7,13 +7,6 @@ public class Livro {
     private int idEditora;
     private int ano;
 
-    public Livro(String titulo, String autor, int idEditora, int ano) {
-        this.titulo = titulo;
-        this.autor = autor;
-        this.idEditora = idEditora;
-        this.ano = ano;
-    }
-
     public String getTitulo() {
         return titulo;
     }

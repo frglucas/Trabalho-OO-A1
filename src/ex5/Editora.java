@@ -6,12 +6,6 @@ public class Editora {
     private String nome;
     private String email;
 
-    public Editora(long id, String nome, String email) {
-        this.id = id;
-        this.nome = nome;
-        this.email = email;
-    }
-
     public long getId() {
         return id;
     }
